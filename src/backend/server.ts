@@ -11,8 +11,8 @@ const root = path.resolve(__dirname, 'public');
 
 app.use(cors());
 
-app.get('/test', (req, res) => {
-  res.send('This is a test endpoint!');
+app.get('/name', (req, res) => {
+  res.send("World");
 });
 
 app.use(express.static(root));
