@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true
+    /* "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "strict": true */
+  },
+  "include": ["src/backend/**/*"],
+  "exclude": ["src/frontend/*"]
+}
